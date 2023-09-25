@@ -1,5 +1,50 @@
-console.log('Funguju');
-// Převod měny
+// console.log('Funguju');
+// //---------------HODINA---------------------------
+// const osobniUdaje = {
+//   jmeno: 'Eva',
+//   prijmeni: 'Malá',
+//   telefon: null,
+//   email: null,
+// };
+// osobniUdaje.email = 'eva@mail.cz'; // nesmyslně zadaný údaj po zadání null
+
+// document.body.innerHTML += `
+// Jméno ${osobniUdaje.jmeno} ${osobniUdaje.prijmeni}<br>`;
+// document.body.innerHTML += `
+// Kontakty ${osobniUdaje.telefon}, ${osobniUdaje.mail}<br>`; //překlep ve slove email = undefined
+
+// if (null === undefined) {
+//   document.body.innerHTML += 'null je undefined<br>';
+// } else {
+//   document.body.innerHTML += 'null není undefined<br>';
+// }
+
+// if (osobniUdaje.telefon === null) {
+//   document.body.innerHTML += '<em>E-mail nebyl zadán</em><br>';
+// } else {
+//   document.body.innerHTML += `E-mail ${osobniUdaje.email}<br>`;
+// }
+
+// if (osobniUdaje.email !== null) {
+//   document.body.innerHTML += `E-mail ${osobniUdaje.email}<br>`;
+// } else {
+//   document.body.innerHTML += '<em>E-mail nebyl zadán</em><br>';
+// }
+
+// if ('null' !== null) {
+//   document.body.innerHTML += '<em>Řetězec není hodnota null</em><br>';
+// }
+
+// if ('' !== null) {
+//   document.body.innerHTML += '<em>Prázdný řetězec nneí hodnota null</em><br>';
+// }
+
+// if (0 !== null) {
+//   document.body.innerHTML += '<em>Nula není hodnota null</em><br>';
+// }
+
+//------------------------------------------------
+// PŘEVOD MĚNY
 // Napište funkci, která převede částku na české koruny.
 // Napište funkci convertToCZK, která převede částku zadanou v cízí měně na české koruny. Funkce bude podporovat následující měny a kurzy.
 
