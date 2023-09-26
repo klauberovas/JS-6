@@ -58,30 +58,26 @@
 // document.body.innerHTML += convertToCZK(25, 'EUR');
 // Pokud funkce jako parametr dostane neznámý kód měny, vrátí jako výsledek null. Otestujte funkci výpisem výsledku do stránky.
 // const convertToCZK = (amount, code) => {
+//   let rate;
 //   if (code === 'EUR') {
-//     return Math.round(amount * 24.47);
+//     rate = 24.47;
+//   } else if (code === 'GBP') {
+//     rate = 28.09;
+//   } else if (code === 'USD') {
+//     rate = 24.81;
+//   } else if (code === 'BTC') {
+//     rate = 478637;
+//   } else {
+//     return null;
 //   }
-//   if (code === 'GBP') {
-//     return Math.round(amount * 28.09);
-//   }
-//   if (code === 'USD') {
-//     return Math.round(amount * 24.81);
-//   }
-//   if (code === 'BTC') {
-//     return Math.round(amount * 478637);
-//   }
-//   return null;
+//   return Math.round(amount * rate);
 // };
-// document.body.innerHTML += convertToCZK(25, 'EUR');
-// document.body.innerHTML += '<br></br>';
-// document.body.innerHTML += convertToCZK(10, 'GBP');
-// document.body.innerHTML += '<br></br>';
-// document.body.innerHTML += convertToCZK(20, 'USD');
-// document.body.innerHTML += '<br></br>';
-// document.body.innerHTML += convertToCZK(1, 'BTC');
-// document.body.innerHTML += '<br></br>';
-// document.body.innerHTML += convertToCZK(25, 'AOA'); //Africká měna :D
-//------------------------------------------------------------
+// document.body.innerHTML += `<p>25 EUR je ${convertToCZK(25, 'EUR')} CZK</p>`;
+// document.body.innerHTML += `<p>25 GBP je ${convertToCZK(25, 'GBP')} CZK</p>`;
+// document.body.innerHTML += `<p>25 USD je ${convertToCZK(25, 'USD')} CZK</p>`;
+// document.body.innerHTML += `<p>25 BTC je ${convertToCZK(25, 'BTC')} CZK</p>`;
+// document.body.innerHTML += `<p>25 AOA je ${convertToCZK(25, 'AOA')} CZK</p>`; //Africká měna :D
+------------------------------------------------------------
 // PRICE BY MUSELO BÝT DEFINOVÁNO PŘED PODMÍNKOU A BÝT LET
 // const age = 25;
 
