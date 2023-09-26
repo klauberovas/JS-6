@@ -77,7 +77,7 @@
 // document.body.innerHTML += `<p>25 USD je ${convertToCZK(25, 'USD')} CZK</p>`;
 // document.body.innerHTML += `<p>25 BTC je ${convertToCZK(25, 'BTC')} CZK</p>`;
 // document.body.innerHTML += `<p>25 AOA je ${convertToCZK(25, 'AOA')} CZK</p>`; //Africká měna :D
-------------------------------------------------------------
+// ------------------------------------------------------------
 // PRICE BY MUSELO BÝT DEFINOVÁNO PŘED PODMÍNKOU A BÝT LET
 // const age = 25;
 
